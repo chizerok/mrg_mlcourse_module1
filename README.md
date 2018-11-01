@@ -33,3 +33,8 @@ avg / total       0.91      0.91      0.91     60000
           9       0.91      0.86      0.88      1009
 
 avg / total       0.91      0.91      0.91     10000
+
+
+тк не особо дружу с гитхабом то просто 2 файлика
+train.py принтит classification_report от трейна
+predict.py принтит classification_report от теста
