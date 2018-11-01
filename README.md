@@ -1,5 +1,9 @@
 # mrg_mlcourse_module1
 first homework
+
+model.ipynb - ноутбук в котором находятся веса (около 8 часов)
+model_weights - найденные веса
+
 Результаты на трейне:
              precision    recall  f1-score   support
 
@@ -35,6 +39,22 @@ avg / total       0.91      0.91      0.91     60000
 avg / total       0.91      0.91      0.91     10000
 
 
-тк не особо дружу с гитхабом то просто 2 файлика
-train.py принтит classification_report от трейна
-predict.py принтит classification_report от теста
+в папке с данными должны быть оба файла (images и labels)
+
+
+$ usage: python train.py [-y y_train_dir] [-m model_output_dir]
+
+optional arguments:
+  -y y_train_dir, --y_train_dir x_train_dir
+                        default: './data'
+  -m model_output_dir, --model_output_dir model_output_dir
+                        default:  'data/'
+                        
+                        
+$ usage: python predict.py [-y y_test_dir] [-m model_output_dir]
+
+optional arguments:
+  -y y_test_dir, --y_test_dir y_test_dir
+                        default: './data'
+  -m model_output_dir, --model_output_dir model_output_dir
+                        default: 'data/'                        
