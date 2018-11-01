@@ -1,5 +1,6 @@
 # mrg_mlcourse_module1
 first homework
+
 выполнял совместно с Калашниковой Елизаветой
 
 
@@ -7,6 +8,7 @@ model.ipynb - ноутбук в котором находятся веса (ок
 
 
 model_weights - найденные веса
+
 
 Результаты на трейне:
              precision    recall  f1-score   support
