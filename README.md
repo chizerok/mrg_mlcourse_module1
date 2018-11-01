@@ -58,3 +58,6 @@ optional arguments:
                         default: './data'
   -m model_output_dir, --model_output_dir model_output_dir
                         default: 'data/'                        
+                        
+ (но это не точно) в крайнем случае можно просто кинуть в папку train.py predict.py, в этой папке создать папку data, кинуть туда все файлы с данными и файл с весами.
+ 
