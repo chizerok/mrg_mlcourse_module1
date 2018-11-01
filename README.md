@@ -1,6 +1,6 @@
 # mrg_mlcourse_module1
 first homework
-
+выполнял совместно с Калашниковой Елизаветой
 model.ipynb - ноутбук в котором находятся веса (около 8 часов)
 model_weights - найденные веса
 
